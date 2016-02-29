@@ -1,0 +1,24 @@
+{
+  "name": "mrkrstphr/instantiator",
+  "description": "Instantiate Objects in PHP",
+  "authors": [
+    {
+      "name": "Kristopher Wilson",
+      "email": "kristopherwilson@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "mrkrstphr\\Instantiator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0,<=8.0"
+  },
+  "require-dev": {
+    "peridot-php/peridot": "^1.17",
+    "peridot-php/leo": "^1.4",
+    "squizlabs/php_codesniffer": "^2.5"
+  }
+}
